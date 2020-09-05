@@ -32,7 +32,7 @@ from google.cloud import storage
 
 # Instantiates a client
 client = twilioClient(account_sid, auth_token, http_client=proxy_client)
-
+C;hV+s4Nj/d6r;N<cH:5
 #client = twilioClient(account_sid, auth_token)
 storage_client = storage.Client()
 
@@ -51,24 +51,33 @@ def sms():
 
     text_input = dialogflow.types.TextInput(text=msg_body, language_code=DIALOGFLOW_LANGUAGE_CODE)
     query_input = dialogflow.types.QueryInput(text=text_input)
-    
-    # pass text to dialogflow and get a response
+
     try:
         response = session_client.detect_intent(session=session, query_input=query_input)
-        chatbot_answer = str(response.query_result.fulfillment_text)
+        dialogflow_answer = str(response.query_result.fulfillment_text)
 
     except InvalidArgument:
         raise
 
-    if chatbot_answer: # send it
+    if dialogflow_answer:
+        sending = ''
+        # hardcord for now
+        if dialogflow_answer == '!why!':
+            sending = 'Lipitor lowers cholesterol'
+        elif dialogflow_answer == '!prescriptions!':
+            sending = 'You are currently taking Lipitor'
+        else:
+            sending = dialogflow_answer
+
         client.messages.create(
             to = msg_from,
             from_ = account_num,
-            body = chatbot_answer)
-        return str(chatbot_answer)
+            body = sending)
+
+        return str(sending)
     else:
         return 'Great, now try texting!'
-    return 'a' + str(msg_from) + str(msg)
+    return 'a' + str(msg_from) + str(msg) # dummy
 
 @app.route('/hello', methods=['GET', 'POST']) # test
 def hello():
