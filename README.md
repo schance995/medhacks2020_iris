@@ -1,4 +1,4 @@
-# medhacks2020
+# MedHacks2020
 
 ## Pitch 
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
@@ -15,6 +15,11 @@ The choice of using an SMS-bot stems from the need to make such information much
 
 With Iris, we hope to educate patients about the drugs they have been prescribed. If patients feel that they understand why they are taking certain medications and how exactly to take them, they will be more motivated to adhere to physician-prescribed treatment plans. Iris aims to empower patients in learning about their healthcare needs.  
 
+
+## Check out our presentation slides 
+[here](https://docs.google.com/presentation/d/1NEmPzCgbp9Jrm1FA_ZTljlaCUCwe93AI_pcHt4aa2z0/edit?ts=5f540474#slide=id.g970400d85f_1_18367)
+## And our demo video 
+[here](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
 
 
 # GETTING THE TUTORIAL TO WORK
