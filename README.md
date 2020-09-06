@@ -1,4 +1,4 @@
-# medhacks2020
+# MedHacks2020
 
 ## Pitch 
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
