@@ -42,7 +42,7 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 1. Check that the billing of the service account is set to the trial account.
 2. In DialogFlow create an agent based off the FAQ template (we had to create a new agent first to enable making off of templates)
 3. Create different intents that respond to different queries. Each intent should return a message formatted `!message!`. This unique format was arbitrarily chosen to avoid confusing it with DialogFlow's more natural responses.
-    - For example, you can modify the 'welcome' intent to return 'Hi, my name is Iris!' when the patient texts 'Hello'
+    - For example, you can modify the `welcome` intent to return `Hi, my name is Iris!` when the patient texts `Hello`
     - Our code has examples of handling these outputs
     - In theory, DialogFlow matches texts with their intents, and from those intents we can use BigQuery on the [nlm-rxnorm dataset](https://www.nlm.nih.gov/research/umls/rxnorm/overview.html) (also available on Google Cloud). But we weren't able to figure this out in time for the weekend :(
     - Maybe you know how to work with this, if so our code has BigQuery set up so you can make queries! :)
