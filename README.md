@@ -13,7 +13,7 @@
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
  
 ## Our Story
-According to the World Health Organization, an estimated 125,000 preventable deaths per year are caused by medication nonadherence. Two of the main causes of these deaths are patients lacking belief in their need for medication and having fear of a medication’s possible side effects. On top of this, forgetting to take a dose of their medication accounts for 39% of all patient nonadherence. If patients can conveniently access easy-to-digest information about their prescriptions, they will be more likely to take their medications. In addition, patients will greatly benefit from critical medication reminders to further increase patient adherence. 
+According to the World Health Organization, an estimated 125,000 preventable deaths per year are caused by medication nonadherence. Two of the main causes of these deaths are patients lacking belief in their need for medication and having fear of a medication’s possible side effects. On top of this, forgetting to take a dose of their medication accounts for 39% of all patient nonadherence. If patients can conveniently access easy-to-digest information about their prescriptions, they will be more likely to take their medications. In addition, patients will greatly benefit from medication reminders to further increase patient adherence. 
 
 This is where Iris comes in.
 
