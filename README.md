@@ -1,4 +1,6 @@
 # Iris: MedHacks2020, Team Empowerment Through Information
+![Iris Logo](Iris.png)
+
 
 ## Pitch 
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
@@ -20,9 +22,9 @@ You can text Iris at 1-202-935-7045. We will take Iris down soon after MedHacks 
 ## [And our demo video](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
 
 ## Works Cited
-Allison, K. (2012). Adherence through education: A call to clinicians to educate all patients on medication use. Mental Health Clinician, 2(4), 83–85. https://doi.org/10.9740/mhc.n117761
+Allison, K. (2012). Adherence through education: A call to clinicians to educate all patients on medication use. Mental Health Clinician, 2(4), 83–85. <https://doi.org/10.9740/mhc.n117761>
 
-Brown, M. T., & Bussell, J. K. (2011). Medication Adherence: WHO Cares? Mayo Clinic Proceedings, 86(4), 304–314. https://doi.org/10.4065/mcp.2010.0575
+Brown, M. T., & Bussell, J. K. (2011). Medication Adherence: WHO Cares? Mayo Clinic Proceedings, 86(4), 304–314. <https://doi.org/10.4065/mcp.2010.0575>
 
 Martin, L. R., Williams, S. L., Haskard, K. B., & DiMatteo, M. R. (2005). The challenge of patient adherence. Therapeutics and Clinical Risk Management, 1(3), 189–199.
 
