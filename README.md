@@ -26,6 +26,9 @@ Brown, M. T., & Bussell, J. K. (2011). Medication Adherence: WHO Cares? Mayo Cli
 
 Martin, L. R., Williams, S. L., Haskard, K. B., & DiMatteo, M. R. (2005). The challenge of patient adherence. Therapeutics and Clinical Risk Management, 1(3), 189–199.
 
+McCarthy, R. (1998). The price you pay for the drug not taken. Business and Health, 16(10), 27–28, 30, 32–33.
+
+
 
 # GETTING THE TUTORIAL TO WORK
 The steps are similar to [this](https://chatbotslife.com/build-a-working-sms-chat-bot-in-10-minutes-b8278d80cc7a) but have to be modified to match [this](https://medium.com/swlh/working-with-dialogflow-using-python-client-cb2196d579a4) because times have changed (api.ai is now DialogFlow for starters).
