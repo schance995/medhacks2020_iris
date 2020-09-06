@@ -43,7 +43,7 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
     - For example, you can modify the 'welcome' intent to return 'Hi, my name is Iris!' when the patient texts 'Hello'
     - Our code has examples of handling these outputs
     - In theory, DialogFlow matches texts with their intents, and from those intents we can use BigQuery on the [nlm-rxnorm dataset](https://www.nlm.nih.gov/research/umls/rxnorm/overview.html) (also available on Google Cloud). But we weren't able to figure this out in time for the weekend :(
-  - Maybe you know how to work with this, if so our code has BigQuery set up so you can make queries! :)
+    - Maybe you know how to work with this, if so our code has BigQuery set up so you can make queries! :)
 3. Instead of a client access token you will need a JSON key file. Follow the docs [here](https://cloud.google.com/iam/docs/creating-managing-service-account-keys?hl=en).
 4. Download this JSON key file and keep it safe since, it's your private information!
 4. Make a [Twilio](https://www.twilio.com/) account.
