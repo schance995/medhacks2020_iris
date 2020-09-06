@@ -1,4 +1,4 @@
-# Iiris: MedHacks2020, Team Empowerment Through Information
+# Iris: MedHacks2020, Team Empowerment Through Information
 
 ## Pitch 
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
