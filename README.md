@@ -60,7 +60,7 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 8. Activate the virtual environment
 9. In bash: `pip install -r requirements.txt` for the required libraries
 10. Start the web app. You can test it by going to the other routes besides the root page, this will return text of some simple DialogFlow and BigQuery usage.
-10. Go back to your Twilio account, and in "Manage numbers" set the webhook to `your web app here`. You only need the landing (home) page for this unless you changed the route name in Flask.
+10. Go back to your Twilio account, and in "Manage numbers" set the webhook to your web app's link. You only need the landing (home) page for this unless you changed the route name in Flask.
 10. This is it! Text the phone number you bought from Twilio!
     - If Iris responded then you've successfully completed this tutorial!
     - Otherwise please see the next section.
