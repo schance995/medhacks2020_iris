@@ -17,15 +17,23 @@ import os
 import threading
 import time
 
+# ----------SETTING UP--------------
 
-# https://www.pythonanywhere.com/forums/topic/7021/ for this
+# https://www.pythonanywhere.com/forums/topic/7021/ for why we need this
 proxy_client = TwilioHttpClient()
 proxy_client = TwilioHttpClient(proxy={'http': os.environ['http_proxy'], 'https': os.environ['https_proxy']})
 
-# Twilio authentication
-account_sid = "twilio_sid"
-auth_token = "twilio auth_token"
 account_num = "twilio phone number you bought"
+
+# Twilio authentication
+os.environ["TWILIO_ACCOUNT_SID"] = "twilio sid"
+os.environ["TWILIO_AUTH_TOKEN"] = "twilio auth token"
+
+'''
+More convenient, less secure
+account_sid = "twilio sid"
+auth_token = "twilio auth_token"
+'''
 
 # Instantiates a Twilio client
 twilio_client = twilioClient(account_sid, auth_token, http_client=proxy_client)
@@ -35,6 +43,8 @@ path_to_key = '/home/<your-name-here>/mysite/secret-key.json'
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = path_to_key
 
 # Instantiates a Google Cloud storage client before doing anything else
+# https://cloud.google.com/storage/docs/reference/libraries for more info
+# you do not need to make buckets for this to work
 google_cloud_storage_client = storage.Client()
 
 # Dialogflow options
@@ -50,8 +60,8 @@ session = dialogflow_client.session_path(DIALOGFLOW_PROJECT_ID, SESSION_ID)
 credentials, project = google.auth.default(scopes=['https://www.googleapis.com/auth/cloud-platform'])
 bigquery_client = bigquery.Client(credentials=credentials, project=credentials.project_id)
 
+# ----------FLASK APP--------------
 
-# Start Flask App
 app = Flask(__name__)
 
 # twilio connects to the webhook here when you text it
