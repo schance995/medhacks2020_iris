@@ -1,4 +1,4 @@
-# Iris: MedHacks2020, Team Empowerment Through Information
+# We are Team Empowerment Through Information at MedHacks2020, and this is 
 ![Iris Logo](Iris.png)
 
 
