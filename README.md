@@ -14,9 +14,7 @@ Iris is an SMS chatbot that patients can text to gain easily understandable info
 
 The choice of using an SMS-bot stems from the need to make such information much more accessible than it is now, especially to those lacking literacy in technology. All a patient needs to do get started is to set up the initial account at their physician’s office then start texting - there’s no need for the patient to install anything or create any additional accounts.
 
-With Iris, we hope to educate patients about the drugs they have been prescribed. If patients feel that they understand why they are taking certain medications and how exactly to take them, they will be more motivated to adhere to physician-prescribed treatment plans. Iris aims to empower patients in learning about their healthcare needs.  
-
-You can text Iris at 1-202-935-7045. Iris will be available to chat until after MedHacks closes.
+With Iris, we hope to educate patients about the drugs they have been prescribed. If patients feel that they understand why they are taking certain medications and how exactly to take them, they will be more motivated to adhere to physician-prescribed treatment plans. Iris aims to empower patients in learning about their healthcare needs.
 
 ## [Check out our presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vRKhjLxvHEs-NEv6R-ggEIgcV1AvITJMRmlhUY5z-mSYtYSZ9VuUJN4dPbZ3hc2PxXhEGi_-opqxuQw/pub?start=false&loop=false&delayms=3000)
 ## [And our demo video](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
@@ -73,6 +71,7 @@ Here are some common errors we ran across:
 - Make sure you reload PythonAnywhere after making any changes (this one really got us for a while)
 
 ## Thanks for your interest in Iris!
+You can also check out our [Devpost submission](https://devpost.com/software/iris-hlovk6?ref_content=user-portfolio).
 - Spencer Chan
 - Tanaya Jha
 - Michelle Fang
