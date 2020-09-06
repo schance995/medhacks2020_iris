@@ -17,9 +17,9 @@ With Iris, we hope to educate patients about the drugs they have been prescribed
 
 
 ## Check out our presentation slides 
-(https://docs.google.com/presentation/d/1NEmPzCgbp9Jrm1FA_ZTljlaCUCwe93AI_pcHt4aa2z0/edit?ts=5f540474#slide=id.g970400d85f_1_18367) [here] 
+[here](https://docs.google.com/presentation/d/1NEmPzCgbp9Jrm1FA_ZTljlaCUCwe93AI_pcHt4aa2z0/edit?ts=5f540474#slide=id.g970400d85f_1_18367)
 ## And our demo video 
-(https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) [here] 
+[here](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
 
 
 # GETTING THE TUTORIAL TO WORK
