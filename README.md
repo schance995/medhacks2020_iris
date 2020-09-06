@@ -16,7 +16,7 @@ With Iris, we hope to educate patients about the drugs they have been prescribed
 
 You can text Iris at 1-202-935-7045. We will take Iris down soon after MedHacks closes, so be sure to say hi soon!
 
-## [Check out our presentation slides](https://docs.google.com/presentation/d/1NEmPzCgbp9Jrm1FA_ZTljlaCUCwe93AI_pcHt4aa2z0/edit?ts=5f540474#slide=id.g970400d85f_1_18367)
+## [Check out our presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vRKhjLxvHEs-NEv6R-ggEIgcV1AvITJMRmlhUY5z-mSYtYSZ9VuUJN4dPbZ3hc2PxXhEGi_-opqxuQw/pub?start=false&loop=false&delayms=3000)
 ## [And our demo video](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
 
 ## Works Cited
