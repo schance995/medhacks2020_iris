@@ -1,3 +1,10 @@
+![Built for MedHacks2020](https://img.shields.io/badge/Built%20For-MedHacks%202020-00b4f0)
+![Built by Spencer Chan](https://img.shields.io/badge/Built%20By-Spencer%20Chan-red)
+![Built by Tanaya Jha](https://img.shields.io/badge/Built%20By-Tanaya%20Jha-orange)
+![Built by Michelle Fang](https://img.shields.io/badge/Built%20By-Michelle%20Fang-yellow)
+![Built by Surya Padmanabhan](https://img.shields.io/badge/Built%20By-Surya%20Padmanabhan-green)
+
+
 # We are Team Empowerment Through Information at MedHacks2020, and this is 
 ![Iris Logo](Iris.png)
 
@@ -68,7 +75,3 @@ Here are some common errors we ran across:
 
 ## Thanks for your interest in Iris!
 You can also check out our [Devpost submission](https://devpost.com/software/iris-hlovk6?ref_content=user-portfolio).
-- Spencer Chan
-- Tanaya Jha
-- Michelle Fang
-- Surya Padmanabhan
