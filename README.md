@@ -37,7 +37,6 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 
 ## Here we go
 0. Read the docs for setting up [Google Cloud](https://cloud.google.com/dialogflow/es/docs/quick/setup)
-1. Claim your Google Cloud credits first, we're not sure if they were used in this project, but maybe for some services like BigQuery.
 1. Create a DialogFlow service account on Google Cloud
 1. Check that the billing of the service account is set to the trial account.
 2. In DialogFlow create an agent based off the FAQ template (we had to create a new agent first to enable making off of templates)
