@@ -71,3 +71,9 @@ Here are some common errors we ran across:
 - Make sure that you have entered all your authentication information correctly.
 - Make sure that your Google Cloud project is properly set up (billing, service accounts/permissions, etc)
 - Make sure you reload PythonAnywhere after making any changes (this one really got us for a while)
+
+## Thanks for your interest in Iris!
+- Spencer Chan
+- Tanaya Jha
+- Michelle Fang
+- Surya Padmanabhan
