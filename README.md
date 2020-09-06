@@ -24,7 +24,7 @@ The choice of using an SMS-bot stems from the need to make such information much
 With Iris, we hope to educate patients about the drugs they have been prescribed. If patients feel that they understand why they are taking certain medications and how exactly to take them, they will be more motivated to adhere to physician-prescribed treatment plans. Iris aims to empower patients in learning about their healthcare needs.
 
 ## [Check out our presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vRKhjLxvHEs-NEv6R-ggEIgcV1AvITJMRmlhUY5z-mSYtYSZ9VuUJN4dPbZ3hc2PxXhEGi_-opqxuQw/pub?start=false&loop=false&delayms=3000)
-## [And our demo video](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
+## [And our demo video](https://www.youtube.com/watch?v=VeWLDuk4NnI) 
 
 ## Works Cited
 1. Allison, K. (2012). Adherence through education: A call to clinicians to educate all patients on medication use. Mental Health Clinician, 2(4), 83–85. <https://doi.org/10.9740/mhc.n117761>
