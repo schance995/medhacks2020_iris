@@ -6,7 +6,7 @@
 Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
  
 ## Our Story
-According to the World Health Organization, an estimated 125,000 preventable deaths per year are caused by medication nonadherence. Two of the main causes of these deaths are patients lacking belief in their need for medication and having fear of a medication’s possible side effects [1][1]. On top of this, forgetting to take a dose of their medication accounts for 39% of all patient nonadherence [5][5]. If patients can conveniently access easy-to-digest information about their prescriptions, they will be more likely to take their medications. In addition, patients will greatly benefit from critical medication reminders to further increase patient adherence.
+According to the World Health Organization, an estimated 125,000 preventable deaths per year are caused by medication nonadherence. Two of the main causes of these deaths are patients lacking belief in their need for medication and having fear of a medication’s possible side effects. On top of this, forgetting to take a dose of their medication accounts for 39% of all patient nonadherence. If patients can conveniently access easy-to-digest information about their prescriptions, they will be more likely to take their medications. In addition, patients will greatly benefit from critical medication reminders to further increase patient adherence. 
 
 This is where Iris comes in.
 
@@ -20,11 +20,11 @@ With Iris, we hope to educate patients about the drugs they have been prescribed
 ## [And our demo video](https://drive.google.com/file/d/1kTpveKhr2RIRTMteFti6UtP7KMVuElOH/view?usp=sharing) 
 
 ## Works Cited
-[1]: Allison, K. (2012). Adherence through education: A call to clinicians to educate all patients on medication use. Mental Health Clinician, 2(4), 83–85. <https://doi.org/10.9740/mhc.n117761>
-[2]: Brown, M. T., & Bussell, J. K. (2011). Medication Adherence: WHO Cares? Mayo Clinic Proceedings, 86(4), 304–314. <https://doi.org/10.4065/mcp.2010.0575>
-[3]: Martin, L. R., Williams, S. L., Haskard, K. B., & DiMatteo, M. R. (2005). The challenge of patient adherence. Therapeutics and Clinical Risk Management, 1(3), 189–199.
-[4]: McCarthy, R. (1998). The price you pay for the drug not taken. Business and Health, 16(10), 27–28, 30, 32–33.
-[5]: Citation goes here
+1. Allison, K. (2012). Adherence through education: A call to clinicians to educate all patients on medication use. Mental Health Clinician, 2(4), 83–85. <https://doi.org/10.9740/mhc.n117761>
+2. Brown, M. T., & Bussell, J. K. (2011). Medication Adherence: WHO Cares? Mayo Clinic Proceedings, 86(4), 304–314. <https://doi.org/10.4065/mcp.2010.0575>
+3. Forgetfulness cripples drug adherence. (n.d.). Managed Healthcare Executive. Retrieved September 6, 2020, from https://www.managedhealthcareexecutive.com/view/forgetfulness-cripples-drug-adherence
+4. Martin, L. R., Williams, S. L., Haskard, K. B., & DiMatteo, M. R. (2005). The challenge of patient adherence. Therapeutics and Clinical Risk Management, 1(3), 189–199.
+5. McCarthy, R. (1998). The price you pay for the drug not taken. Business and Health, 16(10), 27–28, 30, 32–33.
 
 # Building Iris
 The steps are similar to [this tutorial](https://chatbotslife.com/build-a-working-sms-chat-bot-in-10-minutes-b8278d80cc7a) but have to be modified to match [this tutorial](https://medium.com/swlh/working-with-dialogflow-using-python-client-cb2196d579a4) because many updates have happened since. It helps if you know Python and Flask so you can debug if things go wrong, but ideally if you carefully follow these steps everything should work out.
