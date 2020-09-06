@@ -71,5 +71,5 @@ Here are some common errors we ran across:
 - Check that you are importing the correct, **not deprecated** libraries. Many of Google's libraries in particular seem to stale quickly, so whatever docs you read on Google Cloud might be out of date.
 - Make sure that you have entered all your authentication information correctly.
 - Make sure that your Google Cloud project is properly set up (billing, service accounts/permissions, etc)
-- Make sure you reload PythonAnywhere after making any changes (this one really got us for a while)
+- Make sure you reload PythonAnywhere after making any changes (this one really got us for a while) 
 
