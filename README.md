@@ -40,9 +40,9 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 1. Check that the billing of the service account is set to the trial account.
 2. In DialogFlow create an agent based off the FAQ template (we had to create a new agent first to enable making off of templates)
 3. Create different intents that respond to different queries. Each intent should return a message formatted `!message!`. This unique format was arbitrarily chosen to avoid confusing it with DialogFlow's more natural responses.
-  - For example, you can modify the 'welcome' intent to return 'Hi, my name is Iris!' when the patient texts 'Hello'
-  - Our code has examples of handling these outputs
-  - In theory, DialogFlow matches texts with their intents, and from those intents we can use BigQuery on the [nlm-rxnorm dataset](https://www.nlm.nih.gov/research/umls/rxnorm/overview.html) (also available on Google Cloud). But we weren't able to figure this out in time for the weekend :(
+    - For example, you can modify the 'welcome' intent to return 'Hi, my name is Iris!' when the patient texts 'Hello'
+    - Our code has examples of handling these outputs
+    - In theory, DialogFlow matches texts with their intents, and from those intents we can use BigQuery on the [nlm-rxnorm dataset](https://www.nlm.nih.gov/research/umls/rxnorm/overview.html) (also available on Google Cloud). But we weren't able to figure this out in time for the weekend :(
   - Maybe you know how to work with this, if so our code has BigQuery set up so you can make queries! :)
 3. Instead of a client access token you will need a JSON key file. Follow the docs [here](https://cloud.google.com/iam/docs/creating-managing-service-account-keys?hl=en).
 4. Download this JSON key file and keep it safe since, it's your private information!
@@ -52,10 +52,10 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 4. Create a new WebApp on [PythonAnywhere](https://www.pythonanywhere.com/)
 5. Select 'Flask' for Python 3.6 (we weren't sure if higher versions would break the libraries)
 6. Load **flask_app.py** into PythonAnywhere. You will need to replace the private account details in the areas listed in the file.
-   - If you choose to experiment with BigQuery you will need to grant BigQuery Admin access to your service account. If we remember correctly, DialogFlow agents should already have permission to use DialogFlow. You can simply grant the same DialogAgent the BigQuery access role.
+     - If you choose to experiment with BigQuery you will need to grant BigQuery Admin access to your service account. If we remember correctly, DialogFlow agents should already have permission to use DialogFlow. You can simply grant the same DialogAgent the BigQuery access role.
 7. Also load up **requirements.txt** and your GoogleCloud JSON key into the online filesystem.
 8. Go to bash in PythonAnywhere, and create a [virtual environment](https://help.pythonanywhere.com/pages/Virtualenvs/)
-  - Use Python 3.6 to match the Flask version. We used a virtual environment because some of the libraries broke without it.
+    - Use Python 3.6 to match the Flask version. We used a virtual environment because some of the libraries broke without it.
 8. Activate the virtual environment
 9. In bash: `pip install -r requirements.txt` for the required libraries
 10. Start the web app. You can test it by going to `< web app link >/< any of the testing routes >`, this will return simple DialogFlow and BigQuery usage.
