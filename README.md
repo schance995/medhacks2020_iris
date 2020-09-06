@@ -1,5 +1,22 @@
 # medhacks2020
 
+## Pitch 
+Iris is an SMS chatbot that provides patients with information about the medications they are taking, such as side effects, how often they should be taken, and active ingredients.
+
+ 
+## Our story
+According to the WHO, an estimated 125,000 people die from medication nonadherence per year. These deaths are entirely preventable, and two of their main causes are patients lacking belief in their need for medication and having fear of a medication’s possible side effects. On top of this, forgetting to take a dose of their medication accounts for 39% of all patient nonadherence. If patients can conveniently access easy-to-digest information about their prescriptions, they will be more likely to take their medications. Beyond being informed, patients will greatly benefit from critical medication reminders to further increase patient adherence. 
+
+This is where Iris comes in.
+
+Iris is an SMS chatbot that patients can text to gain easily understandable information about the medications they are taking. With the patient’s permission, the physician will submit information about the patient’s prescriptions to our server. After the patient leaves, the patient can text Iris with any questions about the prescribed medications. The information Iris will provide includes the total medications that were prescribed, each medication’s active ingredient, the purpose of each medication, and the potential side effects. The doctor can also choose to provide additional patient-specific information, such as information on dosage and when the medication should be taken. If such supplementary information is provided, the patient can opt for reminder texts to be sent when it is time for the patient to take their medications. 
+
+The choice of using an SMS-bot stems from the need to make such information much more accessible than it is now, especially to those lacking literacy in technology. All a patient needs to do get started is to set up the initial account at their physician’s office then start texting - there’s no need for the patient to install anything or create any additional accounts.
+
+With Iris, we hope to educate patients about the drugs they have been prescribed. If patients feel that they understand why they are taking certain medications and how exactly to take them, they will be more motivated to adhere to physician-prescribed treatment plans. Iris aims to empower patients in learning about their healthcare needs.  
+
+
+
 # GETTING THE TUTORIAL TO WORK
 The steps are similar to [this](https://chatbotslife.com/build-a-working-sms-chat-bot-in-10-minutes-b8278d80cc7a) but have to be modified to match [this](https://medium.com/swlh/working-with-dialogflow-using-python-client-cb2196d579a4) because times have changed (api.ai is now DialogFlow for starters).
 
