@@ -39,7 +39,7 @@ The steps are similar to [this tutorial](https://chatbotslife.com/build-a-workin
 ## Here We Go
 0. Read the docs for setting up [Google Cloud](https://cloud.google.com/dialogflow/es/docs/quick/setup)
 1. Create a DialogFlow service account on Google Cloud
-1. Check that the billing of the service account is set to something, anything (like the to the trial account).
+1. Check that the billing of the service account is set to something, anything (like to the trial account).
 2. In DialogFlow create an agent based off the FAQ template (we had to create a new agent first to enable making off of templates)
 3. Create different intents that respond to different queries. Each intent should return a message formatted `!message!`. This unique format was arbitrarily chosen to avoid confusing it with DialogFlow's more natural responses.
     - For example, you can modify the `welcome` intent to return `Hi, my name is Iris!` when the patient texts `Hello`.
